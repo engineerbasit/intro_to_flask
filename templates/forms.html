@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+<h1>Please Enter your name</h1>
+<form action=" {{ url_for('submit') }}" method="post">
+    <label>Entr Your name</label>
+  <input type="text" name="name" placeholder="Enter you name..."><br>
+  <button>Submit</button>
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "python hello function".</p>
+
+</body>
+</html>
