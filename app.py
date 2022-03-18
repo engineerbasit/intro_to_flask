@@ -46,3 +46,6 @@ def submit():
     name = request.form.get("name")
     abc = "this is Basit! okay bye"
     return render_template("submitted.html",input=abc,USER_input = name)
+
+if __name__ == "__main__":
+    app.run()
